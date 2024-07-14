@@ -23,4 +23,4 @@ const loop = (id1, id2, total) => {
   console.log("Done");
 };
 
-loop(1, 2, 10);
+loop(1, 2, 100);
