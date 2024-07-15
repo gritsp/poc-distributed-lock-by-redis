@@ -1,4 +1,4 @@
-const { client, redlock } = require("./redisConfig");
+const { client } = require("./redisConfig");
 
 const likeById = async (id) => {
   console.log(`Picture with id ${id} liked`);
